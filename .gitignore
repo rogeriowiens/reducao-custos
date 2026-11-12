@@ -2,3 +2,4 @@
 # Áudios recebidos e dados salvos por apelido ficam só na máquina.
 trabalho/entrada/
 trabalho/dados/
+__pycache__/

@@ -4,7 +4,7 @@ Este arquivo guarda as regras que as ferramentas de `trabalho/` aplicam. Cada re
 
 | Ferramenta | Situação |
 |---|---|
-| /darf | **Aguardando aprovação** (nada programado) |
+| /darf | **Aprovado em 12/11/2026** (decisões D1 a D7 como propostas); programado em `trabalho/darf/`, 21 testes passando |
 | /ipca-curva, /regressiva, /comparar | Ainda não pesquisadas |
 
 ---
@@ -140,6 +140,8 @@ Os grupos são os mesmos da calculadora oficial da Receita (ReVar): Geral, FII/F
 | D5 | Arredondamento | Ao centavo mais próximo, com aviso de que o Sicalc pode diferir em R$ 0,01. |
 | D6 | Prejuízo em FI-Infra | **Não compensa e não acumula**, como no ReVar. |
 | D7 | Ganho isento abate prejuízo acumulado? | **Não abate**, pela leitura do item 5.6. |
+| D8 | O day trade conta nos R$ 20 mil? | **Não conta** (não achei regra; a calculadora avisa quando o mês tem day trade e venda comum de ações). Premissa que o código assumiu, a confirmar. |
+| D9 | IR retido de day trade (1%) | Abate só o imposto de day trade e só até dezembro do mesmo ano. O IR retido comum (0,005%) abate o imposto de ações/BDR/FII/Fiagro e o saldo passa aos meses seguintes (IN 1.585, art. 63, § 8º, e art. 65, § 8º). A IN diz "imposto incidente sobre ganhos líquidos apurados no mês", sem separar por grupo; a separação é leitura minha. Premissa a confirmar. |
 
 ## 14. Fora do /darf nesta versão
 

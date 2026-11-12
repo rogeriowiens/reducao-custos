@@ -1,0 +1,11 @@
+{
+  "apelido": "exemplo-heranca",
+  "saldos_iniciais": {"prejuizo_geral_comum": "0", "prejuizo_geral_daytrade": "0", "prejuizo_fii_fiagro": "0"},
+  "operacoes": [
+    {"data": "2024-02-05", "tipo": "compra",  "ativo": "ACAO3", "classe": "acao", "quantidade": 100, "preco": "31"},
+    {"data": "2025-06-16", "tipo": "heranca", "ativo": "ACAO3", "classe": "acao", "quantidade": 300, "preco": "25"},
+    {"data": "2025-10-20", "tipo": "compra",  "ativo": "ACAO3", "classe": "acao", "quantidade": 100, "preco": "29"},
+    {"data": "2026-01-15", "tipo": "venda",   "ativo": "ACAO3", "classe": "acao", "quantidade": 500, "preco": "43"}
+  ],
+  "pagamentos": {"2026-01": "2026-04-10"}
+}
